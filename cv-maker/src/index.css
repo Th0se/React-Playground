@@ -1,0 +1,17 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 0.25rem #034252 solid;
+    padding-left: 0.35rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
